@@ -1,0 +1,62 @@
+{
+    "work": [
+        {
+            "id": 1,
+            "num": "01",
+            "delay": 250,
+            "workFlow": "Register With Us",
+            "workDetails": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+        },
+        {
+            "id": 2,
+            "num": "02",
+            "delay": 500,
+            "workFlow": "Fill Your Application Form",
+            "workDetails": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+        },
+        {
+            "id": 3,
+            "num": "03",
+            "delay": 750,
+            "workFlow": "Meet Those Who Need Your Services",
+            "workDetails": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+        },
+        {
+            "id": 4,
+            "num": "04",
+            "delay": 1000,
+            "workFlow": "Get Your Job",
+            "workDetails": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+        }
+    ],
+    "service": [
+        {
+            "id": 1,
+            "delay": 250,
+            "flaticon": "flaticon-piggy-bank",
+            "mediaHead": "No Downpayment",
+            "mediaBody": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+        },
+        {
+            "id": 2,
+            "delay": 500,
+            "flaticon": "flaticon-wallet",
+            "mediaHead": "All Cash Offer",
+            "mediaBody": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+        },
+        {
+            "id": 3,
+            "delay": 750,
+            "flaticon": "flaticon-file",
+            "mediaHead": "Experts In Your Corner",
+            "mediaBody": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+        },
+        {
+            "id": 4,
+            "delay": 1000,
+            "flaticon": "flaticon-locked",
+            "mediaHead": "Locked In Price",
+            "mediaBody": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+        }
+    ]
+}
