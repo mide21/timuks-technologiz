@@ -1,10 +1,10 @@
 ## Timuks-Technologiz
 
-A simple Todo-App built with React
+A dynamic business website built with reactjs
 
 ## Try it
 
-https://github.com/mide21/react-todo-app
+https://github.com/mide21/timuks-technologiz
 
 ## Install
 
