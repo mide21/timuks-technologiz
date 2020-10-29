@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import TopHeader from '../../../components/TopHeader/TopHeader'
 import Register from '../../../components/Register/Register'
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function About() {
     return (
-        <div>
+        <Fragment>
             <TopHeader name="About" style={{ backgroundImage: "url('images/about.jpg')", backgroundPosition: "bottom" }} />
             <div className="ftco-section ftco-no-pb mb-5">
                 <div className="container">
@@ -37,6 +37,6 @@ export default function About() {
                 </div>
             </div>
             <Register />
-        </div>
+        </Fragment>
     )
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import styled from 'styled-components';
 import RightNav from './RightNav'
 
@@ -47,14 +47,14 @@ export default function Burger(props) {
   const { open, setOpen } = props;
 
   return (
-    <>
+    <Fragment>
       <StyledBurger open={open} onClick={() => setOpen(!open)}>
         <div />
         <div />
         <div />
       </StyledBurger>
       <RightNav open={open} />
-    </>
+    </Fragment>
   )
 }
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, Fragment } from 'react'
 import Burger from './Burger'
 
 
@@ -6,7 +6,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false)
 
     return (
-        <>
+        <Fragment>
             <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
                 <div className="container">
                     <div className="row">
@@ -20,6 +20,6 @@ export default function Navbar() {
                 </div>
             </nav>
             {/* {open && (<div className="toggler-bg" />)} */}
-        </>
+        </Fragment>
     )
 }

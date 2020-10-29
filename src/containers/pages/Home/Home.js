@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, Fragment } from 'react'
 import Register from '../../../components/Register/Register'
 import { work } from '../../../data/data';
 import Header from '../../../components/Header/Header';
@@ -13,7 +13,7 @@ export default function Home() {
     const gotoServiceSection = () => window.scrollTo({ top: serviceSection.current.offsetTop, behavior: "smooth" })
 
     return (
-        <div>
+        <Fragment>
             <Header gotoServiceSection={gotoServiceSection} />
             <Service serviceSection={serviceSection} />
             <section className="ftco-section ftco-degree-bg services-section img mx-md-5"
@@ -82,6 +82,6 @@ export default function Home() {
                 </div>
             </div>
             <Register />
-        </div >
+        </Fragment>
     )
 }

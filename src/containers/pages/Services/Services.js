@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import TopHeader from '../../../components/TopHeader/TopHeader'
 import Register from '../../../components/Register/Register'
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -10,7 +10,7 @@ import { work } from '../../../data/data.json'
 export default function Services() {
 
     return (
-        <div>
+        <Fragment>
             <TopHeader name="Services" style={{ backgroundImage: "url('images/services.jpg')", backgroundAttachment: "fixed", backgroundPosition: "center" }} />
             <Service />
             <section className="ftco-section ftco-degree-bg services-section img mx-md-5"
@@ -50,6 +50,6 @@ export default function Services() {
                 </div>
             </section >
             <Register />
-        </div>
+        </Fragment>
     )
 }

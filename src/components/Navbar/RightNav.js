@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom'
 
@@ -34,7 +34,7 @@ const Ul = styled.div`
 
 const RightNav = ({ open }) => {
   return (
-    <>
+    <Fragment>
       <Ul open={open} className="navbar-nav ml-auto">
         <li className="nav-item">
           <NavLink exact to="/" className="nav-link">Home</NavLink>
@@ -52,7 +52,7 @@ const RightNav = ({ open }) => {
           <NavLink exact to="/application-form" className="nav-link" >Form</NavLink>
         </li>
       </Ul>
-    </>
+    </Fragment>
   )
 }
 

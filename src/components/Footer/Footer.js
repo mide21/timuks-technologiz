@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ScrollToTop from '../ScrollToTop/ScrollToTop';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
 export default function Footer() {
     return (
-        <div>
+        <Fragment>
             <footer className="ftco-footer ftco-section">
                 <div className="container">
                     <div className="row mb-5">
@@ -71,6 +71,6 @@ export default function Footer() {
                 </div>
             </footer>
             <ScrollToTop />
-        </div >
+        </Fragment>
     )
 }

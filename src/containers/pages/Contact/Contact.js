@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import TopHeader from '../../../components/TopHeader/TopHeader'
 
 export default function Contact() {
     return (
-        <div>
+        <Fragment>
             <TopHeader name="Contact" style={{ backgroundImage: "url('images/contact.jpg')", backgroundPosition: "50% bottom", backgroundAttachment: "fixed" }} />
             <section className="ftco-section contact-section">
                 <div className="container">
@@ -55,6 +55,6 @@ export default function Contact() {
                     </div>
                 </div>
             </section>
-        </div>
+        </Fragment>
     )
 }

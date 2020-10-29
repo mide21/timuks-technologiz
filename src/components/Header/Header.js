@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Button } from 'react-bootstrap'
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -7,8 +7,8 @@ export default function Home(props) {
     const { gotoServiceSection } = props;
 
     return (
-        <div>
-            <div className="hero-wrap hero-wrap1 ftco-bg ftco-degree-bg" style={{ backgroundImage: "url('images/bg-masthead.jpg')", backgroundAttachment: "fixed"  }}>
+        <Fragment>
+            <div className="hero-wrap hero-wrap1 ftco-bg ftco-degree-bg" style={{ backgroundImage: "url('images/bg-masthead.jpg')", backgroundAttachment: "fixed" }}>
                 <div className="overlay" />
                 <div className="container">
                     <div className="row no-gutters slider-text justify-content-center align-items-center">
@@ -31,6 +31,6 @@ export default function Home(props) {
                     </div>
                 </div>
             </div>
-        </div>
+        </Fragment>
     )
 }
