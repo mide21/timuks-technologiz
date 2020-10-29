@@ -12,7 +12,7 @@ export default function Services(props) {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-12 heading-section text-center mb-5 mt-lg-2 mt-md-5" >
-                        <ScrollAnimation animateIn="fadeInUp" duration="2">
+                        <ScrollAnimation animateIn="fadeInUp">
                             <span className="subheading">Our Services</span>
                             <h2 className="mb-2">We got what you need </h2>
                         </ScrollAnimation>

@@ -3,6 +3,7 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import { Circular } from 'styled-loaders-react'
 import SweetAlert from 'sweetalert2-react'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 export default function Guarantor(props) {
 
@@ -95,8 +96,10 @@ export default function Guarantor(props) {
                 </Form>
                 <Row className="pt-5">
                     <Col>
-                        <Button className="btnPrev my-md-4" size="lg" variant="outline-success" onClick={() => prevStep()}>Previous</Button>
-                        <Button type="submit" className="btnNext my-md-4" size="lg" variant="outline-success" onClick={(e) => handleSubmit(e)}>Submit</Button>
+                        <ScrollAnimation animateIn="fadeInUp">
+                            <Button className="btnPrev my-md-4" size="lg" variant="outline-success" onClick={() => prevStep()}>Previous</Button>
+                            <Button type="submit" className="btnNext my-md-4" size="lg" variant="outline-primary" onClick={(e) => handleSubmit(e)}>Submit</Button>
+                        </ScrollAnimation>
                     </Col>
                 </Row>
                 <SweetAlert

@@ -3,6 +3,7 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs'
 import { Circular } from 'styled-loaders-react'
 import UploadButton from 'react-upload-button-v2';
+import ScrollAnimation from 'react-animate-on-scroll'
 // import UploadButtonStyles from 'react-upload-button-v2/build/styles.css';
 // or import UploadButtonStyles from 'react-upload-button-v2/component/styles.scss';
 
@@ -88,10 +89,12 @@ export default function Personal(props) {
                 </Form>
                 <Row className="pt-5">
                     <Col>
-                        <Button className="btnNext my-4" size="lg" variant="outline-success"
-                            onClick={() => nextStep()}>
-                            Next
-                    </Button>
+                        <ScrollAnimation animateIn="fadeInUp">
+                            <Button className="btnNext my-4" size="lg" variant="outline-primary"
+                                onClick={() => nextStep()}>
+                                Next
+                            </Button>
+                        </ScrollAnimation>
                     </Col>
                 </Row>
             </Container >

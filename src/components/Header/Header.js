@@ -14,7 +14,7 @@ export default function Home(props) {
                     <div className="row no-gutters slider-text justify-content-center align-items-center">
                         <div className="col-lg-8 col-md-6 d-flex align-items-end" style={{ top: "-20px" }}>
                             <div className="text text-center">
-                                <ScrollAnimation animateIn="fadeInUp" duration="2">
+                                <ScrollAnimation animateIn="fadeInUp">
                                     <h1 className="mb-4">The Simplest <br />Way to Get A Job</h1>
                                     <p style={{ fontSize: "18px" }}>A small river named Duden flows by their place and supplies it with
                                     the necessary regelialia. It is a paradisematic country, in which roasted parts</p>

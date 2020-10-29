@@ -323,6 +323,18 @@ input:focus {
   margin-top: 5px;
 }
 
+.btn-outline-primary {
+  color: #fff;
+  background-color: #37267e;
+  border-color: #37267e;
+}
+
+.btn-outline-primary:hover {
+  color: #37267e !important;
+  background-color: transparent;
+  border-color: #37267e;
+}
+
 .btn-outline-success:hover {
   color: #fff;
   background-color: #37267e;
@@ -338,6 +350,12 @@ input:focus {
 .btn-outline-success:not(:disabled):not(.disabled):active {
   color: #fff;
   background-color: #37267e;
+  border-color: #37267e;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+  color: #37267e;
+  background-color: transparent;
   border-color: #37267e;
 }
 
@@ -381,6 +399,12 @@ input:focus {
 .btn-round {
   border-radius: 40px;
   padding: 15px 40px;
+  color: #fff;
+  background-color: #37267e;
+  border-color: #37267e;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active {
   color: #fff;
   background-color: #37267e;
   border-color: #37267e;

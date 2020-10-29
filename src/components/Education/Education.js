@@ -3,6 +3,7 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import { Circular } from 'styled-loaders-react'
 import UploadButton from 'react-upload-button-v2';
+import ScrollAnimation from 'react-animate-on-scroll'
 
 
 
@@ -134,8 +135,10 @@ export default function Education(props) {
                 </Form>
                 <Row className="pt-5">
                     <Col>
-                        <Button className="btnPrev my-md-4" size="lg" variant="outline-success" onClick={() => prevStep()}>Previous</Button>
-                        <Button className="btnNext my-md-4" size="lg" variant="outline-success" onClick={() => nextStep()}>Next</Button>
+                        <ScrollAnimation animateIn="fadeInUp">
+                            <Button className="btnPrev my-md-4" size="lg" variant="outline-success" onClick={() => prevStep()}>Previous</Button>
+                            <Button className="btnNext my-md-4" size="lg" variant="outline-primary" onClick={() => nextStep()}>Next</Button>
+                        </ScrollAnimation>
                     </Col>
                 </Row>
             </Container >

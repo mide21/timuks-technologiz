@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import { Circular } from 'styled-loaders-react'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 
 export default function Skills(props) {
@@ -367,8 +368,10 @@ export default function Skills(props) {
                     </Form.Row>
                     <Row className="pt-5">
                         <Col>
-                            <Button className="btnPrev my-md-4" size="lg" variant="outline-success" onClick={() => prevStep()}>Previous</Button>
-                            <Button className="btnNext my-md-4" size="lg" variant="outline-success" onClick={() => nextStep()}>Next</Button>
+                            <ScrollAnimation animateIn="fadeInUp">
+                                <Button className="btnPrev my-md-4" size="lg" variant="outline-success" onClick={() => prevStep()}>Previous</Button>
+                                <Button className="btnNext my-md-4" size="lg" variant="outline-primary" onClick={() => nextStep()}>Next</Button>
+                            </ScrollAnimation>
                         </Col>
                     </Row>
                 </Form>
