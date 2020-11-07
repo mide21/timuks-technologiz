@@ -15,7 +15,7 @@ export default function Personal(props) {
             <Container>
                 {loading && (
                     <div className="preloader">
-                        <Circular size="60px" color="#0f054e;" />
+                        <Circular size="60px" color="#0f054e" />
                         {/* <p className="ml-md-0">Please Wait.....</p> */}
                     </div>
                 )}

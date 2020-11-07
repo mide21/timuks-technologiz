@@ -57,14 +57,14 @@ export default class ApplicationForm extends Component {
     }
 
     handleFileChange = (input) => {
-        let selectedFileName = input.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1];
+        let selectedFileName = input.files[0].name;
         this.setState({
             selectedFileName: selectedFileName,
         })
     }
 
     handleFileChangeTwo = (input) => {
-        let selectedFileNameTwo = input.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1];
+        let selectedFileNameTwo = input.files[0].name;
         this.setState({
             selectedFileNameTwo: selectedFileNameTwo,
         })

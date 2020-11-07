@@ -1,33 +1,32 @@
 import React from "react"
-import { InputGroup, Form } from "react-bootstrap"
+import { Form, Col } from "react-bootstrap"
 
 
 export default function ExperienceList(props) {
-
     return (
         props.expList.map((val, idx) => {
             let nameofOrg = `nameofOrg-${idx}`, jobtitle = `jobtitle-${idx}`, role = `role-${idx}`, duration = `duration-${idx}`
             return (
                 <tr key={val.index}>
                     <td>
-                        <InputGroup>
+                        <Form.Group>
                             <Form.Control type="text" name="experience" data-id={idx} id={nameofOrg} />
-                        </InputGroup>
+                        </Form.Group>
                     </td>
                     <td>
-                        <InputGroup>
+                        <Form.Group>
                             <Form.Control type="text" name="experience" data-id={idx} id={jobtitle} />
-                        </InputGroup>
+                        </Form.Group>
                     </td>
                     <td>
-                        <InputGroup>
+                        <Form.Group>
                             <Form.Control type="text" name="experience" data-id={idx} id={role} />
-                        </InputGroup>
+                        </Form.Group>
                     </td>
                     <td>
-                        <InputGroup>
+                        <Form.Group>
                             <Form.Control type="text" name="experience" data-id={idx} id={duration} />
-                        </InputGroup>
+                        </Form.Group>
                     </td>
                     <td style={{ paddingTop: "20px" }}>
                         {
