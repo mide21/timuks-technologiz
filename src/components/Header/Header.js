@@ -9,10 +9,10 @@ export default function Home(props) {
     return (
         <Fragment>
             <div className="hero-wrap hero-wrap1 ftco-bg ftco-degree-bg" style={{ backgroundImage: "url('images/bg-masthead.jpg')", backgroundAttachment: "fixed" }}>
-                <div className="overlay" />
+                <div className="overlay overlay1" />
                 <div className="container">
                     <div className="row no-gutters slider-text justify-content-center align-items-center">
-                        <div className="col-lg-8 col-md-6 d-flex align-items-end" style={{ top: "-20px" }}>
+                        <div className="col-lg-8 col-md-6 d-flex align-items-end top">
                             <div className="text text-center">
                                 <ScrollAnimation animateIn="fadeInUp">
                                     <h1 className="mb-4">The Simplest <br />Way to Get A Job</h1>
