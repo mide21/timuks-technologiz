@@ -481,12 +481,15 @@ input:focus {
 }
 
 .decor-bottom:before {
-  top: 354px !important;
+  top: 354px;
 }
 
 @media (max-width: 500px) {
   .hero-wrap.hero-wrap-2, .hero-wrap.hero-wrap-2 .overlay {
     height: 500px !important;
+  }
+  .decor-bottom:before {
+    top: 544px !important;
   }
 }
 
@@ -536,6 +539,9 @@ input:focus {
   }
   .top {
     top: -150px;
+  }
+  .decor-bottom:before {
+    top: 444px;
   }
 }
 
