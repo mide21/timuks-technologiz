@@ -6,7 +6,9 @@ export default function ApplicationForm() {
     return (
         <Fragment>
             <TopHeader name="Application Form" style={{ backgroundImage: "url('images/17.jpg')", backgroundPosition: "bottom" }} />
-            <Form />
+            <section className="decoration--type6-rotate decor-bottom">
+                <Form />
+            </section>
         </Fragment>
     )
 }

@@ -8,7 +8,7 @@ export default function Services(props) {
     const { serviceSection } = props;
 
     return (
-        <section className="ftco-section ftco-no-pb" ref={serviceSection}>
+        <section className="ftco-section ftco-no-pb decoration--type6-rotate" ref={serviceSection}>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-12 heading-section text-center mb-5 mt-lg-2 mt-md-5" >

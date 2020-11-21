@@ -8,7 +8,7 @@ export default function About() {
     return (
         <Fragment>
             <TopHeader name="About" style={{ backgroundImage: "url('images/about.jpg')", backgroundPosition: "bottom" }} />
-            <div className="ftco-section ftco-no-pb mb-5">
+            <div className="ftco-section ftco-no-pb decoration--type6-rotate mb-5">
                 <div className="container">
                     <div className="row no-gutters">
                         <div className="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center"

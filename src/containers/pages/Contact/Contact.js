@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <Fragment>
             <TopHeader name="Contact" style={{ backgroundImage: "url('images/contact.jpg')", backgroundPosition: "50% bottom", backgroundAttachment: "fixed" }} />
-            <section className="ftco-section contact-section">
+            <section className="ftco-section contact-section decoration--type6-rotate">
                 <div className="container">
                     <div className="row d-flex mb-5 contact-info justify-content-center">"
                         <div className="col-md-8">

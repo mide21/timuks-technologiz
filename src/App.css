@@ -101,6 +101,7 @@ input:focus {
 
 .wizard-breadcrumbs li.active {
   color: var(--blue);
+  box-shadow: 0 10px 25px 0 rgba(50, 50, 93, .07), 0 5px 15px 0 rgba(0, 0, 0, .07);
 }
 
 .wizard-breadcrumbs li i.icon-angle-right {
@@ -467,6 +468,20 @@ input:focus {
 
 .top {
   top: 20px;
+}
+
+.decoration--type6-rotate:before {
+  content: '';
+  display: block;
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  top: -46px;
+  background: transparent url(http://you.themeplayers.net/computer/wp-content/themes/you/you/assets/images/decoration-line-type6-rotate.png) repeat-x;
+}
+
+.decor-bottom:before {
+  top: 354px !important;
 }
 
 @media (max-width: 500px) {
